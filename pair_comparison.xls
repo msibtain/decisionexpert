@@ -1,0 +1,778 @@
+<h3>Pair Comparison</h3><strong>Pair Comparison of Attributes with respect to: Goal</strong>	  <table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="117">Goal</td>
+		  		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box"  align="center" width="117">Family</td>
+		  		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box"  align="center" width="117">Medical History</td>
+		  		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box"  align="center" width="117">Social Factors</td>
+		  		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box"  align="center" width="117">Funding</td>
+		  		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box"  align="center" width="117">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Family</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" align="center" word1="Family" word2="Medical History" onclick="javascript: compare(this);" id="family_medicalhistory" inverseid="medicalhistory_family">
+				1/2			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Family" word2="Social Factors" onclick="javascript: compare(this);" id="family_socialfactors" inverseid="socialfactors_family">
+				2			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Family" word2="Funding" onclick="javascript: compare(this);" id="family_funding" inverseid="funding_family">
+				7			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.276          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Medical History</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Medical History" word2="Family" onclick="javascript: compare(this);" id="medicalhistory_family" inverseid="family_medicalhistory">
+				2			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Medical History" word2="Social Factors" onclick="javascript: compare(this);" id="medicalhistory_socialfactors" inverseid="socialfactors_medicalhistory">
+				5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Medical History" word2="Funding" onclick="javascript: compare(this);" id="medicalhistory_funding" inverseid="funding_medicalhistory">
+				9			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.536          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Social Factors</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Social Factors" word2="Family" onclick="javascript: compare(this);" id="socialfactors_family" inverseid="family_socialfactors">
+				1/2			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Social Factors" word2="Medical History" onclick="javascript: compare(this);" id="socialfactors_medicalhistory" inverseid="medicalhistory_socialfactors">
+				1/5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Social Factors" word2="Funding" onclick="javascript: compare(this);" id="socialfactors_funding" inverseid="funding_socialfactors">
+				5			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.147          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Funding</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Funding" word2="Family" onclick="javascript: compare(this);" id="funding_family" inverseid="family_funding">
+				1/7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Funding" word2="Medical History" onclick="javascript: compare(this);" id="funding_medicalhistory" inverseid="medicalhistory_funding">
+				1/9			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Funding" word2="Social Factors" onclick="javascript: compare(this);" id="funding_socialfactors" inverseid="socialfactors_funding">
+				1/5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.042          </td>
+	  </tr>
+	  	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 96.6%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: Funding</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">Funding</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" align="center" width="140">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+				7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+				3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.649          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+				1/7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+				1/5			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.072          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+				1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+				5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.279          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 93.8%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: Family</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">Family</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">EDP</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Cohesive</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">FDP</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" align="center" width="140">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">EDP</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" align="center" word1="EDP" word2="Cohesive" onclick="javascript: compare(this);" id="edp_cohesive" inverseid="cohesive_edp">
+				1/4			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="EDP" word2="FDP" onclick="javascript: compare(this);" id="edp_fdp" inverseid="fdp_edp">
+				1/4			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.111          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Cohesive</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Cohesive" word2="EDP" onclick="javascript: compare(this);" id="cohesive_edp" inverseid="edp_cohesive">
+				4			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Cohesive" word2="FDP" onclick="javascript: compare(this);" id="cohesive_fdp" inverseid="fdp_cohesive">
+				1			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.444          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">FDP</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="FDP" word2="EDP" onclick="javascript: compare(this);" id="fdp_edp" inverseid="edp_fdp">
+				4			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="FDP" word2="Cohesive" onclick="javascript: compare(this);" id="fdp_cohesive" inverseid="cohesive_fdp">
+				1			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.444          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 100%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: Medical History</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">Medical History</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">ToDL</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">PH</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">PE</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" align="center" width="140">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">ToDL</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" align="center" word1="ToDL" word2="PH" onclick="javascript: compare(this);" id="todl_ph" inverseid="ph_todl">
+				1/7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="ToDL" word2="PE" onclick="javascript: compare(this);" id="todl_pe" inverseid="pe_todl">
+				1/2			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.103          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">PH</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="PH" word2="ToDL" onclick="javascript: compare(this);" id="ph_todl" inverseid="todl_ph">
+				7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="PH" word2="PE" onclick="javascript: compare(this);" id="ph_pe" inverseid="pe_ph">
+				3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.682          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">PE</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="PE" word2="ToDL" onclick="javascript: compare(this);" id="pe_todl" inverseid="todl_pe">
+				2			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="PE" word2="PH" onclick="javascript: compare(this);" id="pe_ph" inverseid="ph_pe">
+				1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.216          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 99.7%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: Social Factors</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">Social Factors</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">SB</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">SW</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Status</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" align="center" width="140">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">SB</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" align="center" word1="SB" word2="SW" onclick="javascript: compare(this);" id="sb_sw" inverseid="sw_sb">
+				1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="SB" word2="Status" onclick="javascript: compare(this);" id="sb_status" inverseid="status_sb">
+				2			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.249          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">SW</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="SW" word2="SB" onclick="javascript: compare(this);" id="sw_sb" inverseid="sb_sw">
+				3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="SW" word2="Status" onclick="javascript: compare(this);" id="sw_status" inverseid="status_sw">
+				3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.594          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" align="center">Status</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Status" word2="SB" onclick="javascript: compare(this);" id="status_sb" inverseid="sb_status">
+				1/2			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " align="center" word1="Status" word2="SW" onclick="javascript: compare(this);" id="status_sw" inverseid="sw_status">
+				1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" align="center">
+              1               </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center">
+          0.157          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 94.9%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: EDP</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">EDP</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.600          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  1			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.200          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  1			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.200          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 100%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: Cohesive</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">Cohesive</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  1/3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.143          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  1			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.429          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  1			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.429          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 100%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: FDP</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">FDP</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  1/7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  1/3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.081          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  5			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.731          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  1/5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.188          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 93.8%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: ToDL</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">ToDL</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  1			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  1			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.333          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  1			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  1			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.333          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  1			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  1			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.333          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 100%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: PH</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">PH</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.600          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  1			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.200          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  1			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.200          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 100%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: PE</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">PE</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  1/3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.243          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  1/3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  1/7			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.088          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.669          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 99.3%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: SB</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">SB</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  1/7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  1/3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.081          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  5			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.731          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  1/5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.188          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 93.8%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: SW</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">SW</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  1/5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  1/9			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.063          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  1/3			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.265          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  9			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  3			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.672          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 97.2%</div>
+    <p>&nbsp;</p><hr /><strong>Pair Comparison of Choices with respect to: Status</strong>	<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #000; border-left:1px solid #000;" class="tblBorder">
+	  <!-- Draw first row; -->
+	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="objective_box" align="center" width="140">Status</td>
+		  				<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+								<td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+						  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" id="priorities_box" width="140" align="center">Priorities</td>
+	  </tr>
+	  
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Young Girl</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor activeTd" width="140" align="center" word1="Young Girl" word2="Mother" onclick="javascript: compare(this);" id="younggirl_mother" inverseid="mother_younggirl">
+			  1/5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Young Girl" word2="Scientist" onclick="javascript: compare(this);" id="younggirl_scientist" inverseid="scientist_younggirl">
+			  1/7			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.075          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Mother</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Young Girl" onclick="javascript: compare(this);" id="mother_younggirl" inverseid="younggirl_mother">
+			  5			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Mother" word2="Scientist" onclick="javascript: compare(this);" id="mother_scientist" inverseid="scientist_mother">
+			  1/2			  </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.333          </td>
+	  </tr>
+	  	  <tr>
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="criteria_box" width="140" align="center">Scientist</td>
+		  
+		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Young Girl" onclick="javascript: compare(this);" id="scientist_younggirl" inverseid="younggirl_scientist">
+			  7			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="cursor " width="140" align="center" word1="Scientist" word2="Mother" onclick="javascript: compare(this);" id="scientist_mother" inverseid="mother_scientist">
+			  2			  </td>
+			  		  			  			  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" class="gray" width="140" align="center">
+              1              </td>
+			  		  		  
+		  <td style="border-right:1px solid #000; border-bottom:1px solid #000;" align="center" width="140">
+          0.592          </td>
+	  </tr>
+	  	  
+	  </table>
+		<div style="text-align:right; width:750px;"> Consistency: 98.6%</div>
+    <p>&nbsp;</p><hr />PK    ™yD@$˘Hp  ö     [Content_Types].xml≠îÀN√0E˜|E‰-J‹≤@5ÌÇ¬*Q>¿ÿì∆™_Ú∏Øøgí¥º$R™v'JÓ=ìÎè&[k≤5D‘ﬁïlXXNz•›¢doÛß¸éeòÑS¬x%€≤…¯j4ﬂ¿åƒKVßÓ9GYÉX¯ éﬁT>ZëË1.xr)¿oÉ[.ΩK‡Rû6Ω?jŸLƒÙ,,a¯÷Dn–]á˘±Ï°6Ïíâåñ"Q·|Ì‘/jÓ´JKP^Æ,Iä÷Ê∫q·1Ì‡Ÿ(Ñ¬ YSt¶Ú*±2){‹í{óyÉßÒˆa§lø¡Zá>Bˇ˝≠[üÈßQl®ïzBﬂ¯∏|˜~yÈÿõµ∞BªæM'Ò,˙ÄúPg Mr
+T»b“_€ﬁÀñ>¬ÈC4Í˜i∑— oó·ÖcˇÙ?6jµà†^S§Ê∏¯ƒ}˜>RáÍ˙7ÁÁ±7Í«@Ûì†ms6ÜnNx{¥é? PK    ™yD@∂78È   K     _rels/.rels≠íÕj√0ÄÔ{
+£{£¥Ö1Fù^ †∑2≤–lÂá$ñ±Ω-}˚yá±∫“√éñ•OüÑv˚y’;áÿã”∞.JPÏåÿﬁµ^Íß’®ò»Y≈±Ü3GÿWwªg)Âöÿı>™qQCóíDå¶„âb!û]˛i$LîÚ3¥Ë…‘2n Ú√oT¶:Z·h∑†Í≥Á[ÿ“4Ω·Éò∑â]∫–yNÏ,€ïπ>§>£j
+-'VÃ)á#í˜EF^6⁄‹nÙ˜¥8q"Kâ–H‡Î>_◊Ñ÷ˇπ¢e∆èÕ<‚áÑ·Ud¯v¡≈TüPK    ™yD@Ñ$±VÈ   π     xl/_rels/workbook.xml.rels≠í¡j√0DÔ˝
+±˜ZvZJ)ës)Å\[˜Ñ¥∂LlIh7m˝˜UH°üƒ¨ÿô«HÎÕ˜8àOL‘Ø†*JËM∞ΩÔ|4€˚gƒ⁄[=è
+&$ÿ‘wÎ74Ár}$ëM<)pÃÒEJ2GMEàËÛM“®9À‘…®Õ^w(We˘$”‹ÍO±≥
+“ŒV ö)‚ºC€ˆ_É9åË˘JÑ$ûÜÃ/ù:dG]dê◊„WK∆sﬁ≈s˙ü<´[ãV‡tB˚Œ)?ºâ˘¯Ã„í0_!Ì…!Ú‰4˙EÕ«©yÒ„ÍPK    ™yD@◊ÕÍÜ  ;     docProps/app.xmlùS¡n€0ΩÔ+›9¡0Å¨bH7Ù–bí∂gN¶c°∂$à¨ëÏÎ';∞Î¥=’ß««áß'äV7«∂…:ådΩ+ƒrëãùÒ•uáB<Ó_]ãå\	çwXàí∏—ﬂ‘6˙Äë-Rñ¢fk)…‘ÿ-R€•NÂcú xêæ™¨¡[o^[t,Wy˛C‚ë—ïX^Ö…Pú◊’¥Ù¶œGO˚SH~Z˝°±8]R?X=˘ä≥_GÉçíÛ¶JF;4Ø—ÚIÁJŒKµ3–‡&Î
+B%ﬂuá–œl6íVØ;4ÏcFˆ_ö⁄JdÅ∞èSà¢«‚,;nq‘œ>æPç»§‰DpÆùc˚]/AóB9I¯2‚ﬁrÉÙß⁄B‰O/Áâá‚≥å"éáΩ≥ﬂ¯6Ä;ÕÜøÒ1¯8L]…±≠¿¡{É	›[˜BèaÔoÅqú¸%©v5D,”cM/3Í.]!6Ω~SÉ;`9j>6˙=y:ˇzπZ‰È÷c‰î|[{˝PK    ™yD@Ü∑úˇq       docProps/core.xml•íQK√0Öﬂ˝%Ø“&›D§t8ŸìÇ‡D_cr∑≈µIHÆ÷˛{”tÎ6ıM(î”s˙ÂﬁC ˘WS'ü‡º2zFÚåë¥0RÈÕå<ØñÈI<r-ym4ÃHûÃ´ãRÿBèŒXp®¿'§}!ÏålmA©[h∏œBBsm\√1H∑°ñãﬂ ù0vM@.9r⁄S;…)≈à¥Æé )(‘–ÄFOÛ,ß«,Çk¸ü?DÁ$Ÿ(Ï,¸=òc˙À´1ÿ∂m÷Nc4Ãü”◊á˚ß∏j™t_ï RïR¬G„™gΩ”¶’…b–%=Ò˙kÓÒ!4æV oªﬂÒﬂërøÊÄôÑÒäaôÉÛ2]‹≠ñ§ö∞|í≤\≠rV‰”b¬.+Î«8É©Õ˛§ˇaîÿ*¨!¨ﬂ2y≤·LÈ∑ ÎÏ>(¡ß,ÜÎXEÎÏC–˛„ÌÊ(BG;ËZ„§ØbcG’ﬂ‘∞ﬂ∆∏n∞~®≥[\}PK    ™yD@≠≠·J       xl/theme/theme1.xmlÌY[s⁄8~ﬂ_°Ò{k6%ôíL –Ó∂i3	ÌN∂∞UdÀ#â§¸˚=æÄ≠X¥§MgwßÂ,˘;˜ãèÃÀÛ/)'wT*&≤±„=Ô9Ñf°àXèùã˘≥ëCîÜ,.2:v∂T9ÁgºÑSù–î$œ‘)åùDÎ¸‘uUà€†ûãúfxo%d
+ó2v#	˜»6Ânø◊∫)∞Ã!§»ı˝j≈BJKÁl«|∆Ò+”™ÿπºKâmä≠Ω‚Gm’îKr|Ï†úH‹/ËÌJ„ç±”+?é{ˆ“›q}Ä∂E7/?5]M≠˚%ùåó{BoÓüº∏‹ÛÔW¸ª∏Ÿl6ùy{~% ¬-ı:X>Ú&;û-PuŸÂ=Ì=ﬂƒ∑¯:¯ì…dú¯AÉ˜;¯QoË_Ùºﬂ‡ÉÆ˛ìãÈth‡É?Ï‡Á/NÜæâ/A	gŸ∫É.‚πèÃ≤¸µ>B¯hó  meWEüÈCπñ¬g!Á(ÉöeDos∫ÇqSHóíA! N)¥ÓT[°Íl≤à
+%Àıÿ˘+¨àr~NŒãè˙≤∏µ„îâ≥É¥	≤¬.$,€∞K©"ÔË=π)jnaLóÚqãòA	"-¿ôN‡ª-pnBMG}îXﬁ6‡´ÕgC◊€Dn4≥ ﬂ$©ºÇOÑ¥öÛ¶ê’6gì≈v·r”∆› ‹ŸdOÑs∂…1OôçÂ4°Üö◊£1Õ®&≈=±¶‘Bˆâ1√ØW,îBâï&üô ≥∫d¡ñ⁄NÙö•ó-ÿCm¯ÊÍ#ôncIÔL$&?pK 7æÇçÜ‘™1§ºç|:±)yªï°·p•1“1ÂÇÃ"™îçÊΩ‹ÍæÏ3÷∞_Òmj"•fkÚ-—F^äı4Å4∑ÍÃ≤§ç˝S≠1EÅ\mUBòR¨1ê˜GFı„ ˙ã{Çw6≤Ó…FwMYˆµVÀˆ⁄_•’^‡cÖ—`·˛ámı6Ÿ5≈L˛›Uw’_±´™Âc{i”>›ˆL[ÚK∏+∆˘≠ﬁr˙VïçW°“—7ÀEI¥üßÛ/kq.ñP^)ÙﬂL'∑	‰(∆+%ƒ™f+íÖSºsêwydh|πÏŒoà}%¢j{–>◊ÌŸî´Xµ
+«
+º¯1a^<Röÿ•_ïÊ∂ºâ’@†8¥{√~%38ç
+øWvayÚ©"Z«»≥‚ét€Ë€^kI;¸ò¥cÇ‘Á<Aîzù(π›r‰ôπ"˜®U–B>vV8'·eö#?U4 ‡q6vB]õÚÕb~h∞=-ΩﬁAÉπT˙TRQï∑vØ=≤Fˇ~‡~x‹Ô’b0Ú˛E-‹á°•´ıÅùfYﬂMÂm›ì%ﬂ»@Ω˝*ª"¶ô—ﬂ-$V®_'ûY˘u<|ΩRW<Å∫'çZ±Ø‡Âı^ár’Rœ=†˚wö2xBSÇ_◊î"sqlDÂq	« 	§»—±#§Nv°<a·\‚‡P BΩñE°·≈ª‚BWz◊Ù≠äG’‰‚Dﬂ∞òHÜùN'í“k]€˘f^ø˝|›1™˚Ã^]ïWøKzG˘¢®ﬁaaøCí]7©Q‚ÕµU◊2ûˇá'ø˜=„A#»Ã,‚∑ö~ÎQpÚc*<ÚQ€∑[‹é~‘Êx¯ ≈6n&CﬁÃ∑qÉ—'˚âí`">’Â∑ﬂ\¢Œ£ñq´ü;F5!ı~˛Ÿrˆ‡Ä≥{Ωü„Ï¿‚Î‡ÎÆvª%Í∂2Â™ÛßëX~FŸóxP⁄p≠™wE_®9›ΩÓG>nCzˆPK    ™yD@xË   ê      xl/sharedStrings.xmlÀA¬ @—Ωß ≥∑†cLi&û@@ XH @ô¡ËÌe˘ÛÚ«˘õ6ı¡ 1ìÖ”`@!-ŸGZ-ºûè„ã#Ô∂Lh·áÛtôEıïÿB)7≠y	òπ uyÁöúÙ¨´ÊR—yàí6}6Ê¢ìã™Q‹ﬁs#±`@OPK    ™yD@Qπ9C˛  ß     xl/styles.xml≠TMoú0Ω˜WXæ7ÏÆ‘™çÄ®çÑ‘C£™ŸJΩX+˛@ˆ∞eÛÎ;∂	∞J§^ ≈3o∆oÏ«åÛªI+vÁ•5ﬂﬂÏ8”ÿVöæ‡øé’˚Oúy¶ (¯<ø+ﬂÂ/
+O »à·÷¢°Ë‡¿É;†Ò?!∑YÊõh·oÏ Ü"ùuZ πÆœ<Ì≠LZeá›Óc¶Ö4ºÃÕ®+çû5v4Xœ º≥fEˆ<î*4∞≥PøJ÷NÜ\ˇú†˝>xur"ã‹ÿc≤›.nB'ü`o¨≤éπæ.xUÌ‚‡,éãßcH•ñsx |à‡LEõÌ„eÄπeı˜[˙Ù≈”^6u7î°|\˛Q¨w‚≤?|¯ı‚B∑Æ≠k©u∂ˇ#Aa„$A©«–.øª´‘©cÈkÉ÷,H˘bˇl&ö‰⁄-[‚~M;uØ)ØKΩÕœƒ0®KeSª%Ôa‘5∏*vÏ&áVÔk‰X˝/JˆFC¢)sÒ‚≤ìuÚôËCwı`¿	≈√Ù°lT[D´9CòßEÅq(âıè√ë¿ÇwBy/r“<m%,à3u≥Bã8Q™+}îÖ©)¯C∏c≠•Biﬁêú8€©ªûH5=©Jù®‡´˝Z9Íœ¸%Îá<[ú≥¢Ω¶∆ÅÕ÷'¶¸PK    ™yD@)• -ó  ¡     xl/workbook.xmlçQ]O1|ÔØ∞¸^ÓÇ‘FqêZJã‘TR˙Ïÿ{‹
+…ÎKÄ_ﬂµChyÎ”zvw∆ûÒÍ¸¡;±ÉLÉí≥ì^
+&ZwJ˛⁄\æ}'¨v1Äíè@Ú|˝fµè˘~„Ω`˛íí6<KÚdmRr,%-ªéÃ^”ILx2ƒÏuaòÔ:bé∂4Ô∫”æ?Îº∆¨∞Ãˇ£á\D3yÂ í¡È¬ñhƒDrΩ–¡Ì¡•–)}◊ûﬂ˚‡§pö 'ã¨ísÜqØyJ&t,˙ÖÏ÷/ŒØ≥‡ú‡ µë~?ÍR≠∑{˙ª_°–¶‡6z´$'≠ß/—»∫¿Áß‘rüI1`¶rSsiõz|™èbDc‹âüb(⁄›òùk¨:h$æÅ^:lº†yµXÙˆgH…≥ûwH∏EáÂQ…vvP]tˇÿht¨"4◊’q√ı.W∂âÁ%Ú!_Ÿy92-¿÷¿à˚¸ S3‰“xßÛ≈ÏΩl¯Á™dMáÉòú˚»Ω·k‘MøjC]ˇPK    ™yD@ãg4∑ó  ∑     xl/worksheets/sheet1.xmlçT…n€0Ω˜+ﬁÎ%Eõ¬∞§I›Hë Ks¶≈ë≈ö‚C n˙ıRãÌ§áﬁ8o8€õGŒœ˛TVlÅºAó…Èh"∏µqÎL>=.?~ï¬Â¥≤Ë ì/‡ÂŸ‚√|á¥Ò%@ú`Êkï≥≥&@[êt>ìeıl<ˆy	ïÚ#¨¡±ß@™T`ì÷cœ1JßLïüL&_∆ï2ÆÀ0£ˇ…ÅEar∏ƒº©¿Ö6	ÅUÅgÚ•©Ω\ÃSÖ;ZÃ±	÷8∏#·õ™RÙÚ,ÓxtŸ˜f]ÜåÛÒß'è,	Ç"ìÁ”Ÿy∫ë.¸2∞Ûg‘Í,‰tJÈZ!n¢Ûö!¶Ÿó∏˚AFﬂp7LU†ZwhØò^ÀQáeñâ CC°8Í
+∫ŒOFßü•Ë&ΩÅ-ÿ˚8‚‰„"Îg∏TA-ÊÑ;A-µä+úŒ¶L_AXpzü‚ã}[md«û:“îÏL zWø˜ÉÌspäÓëv£`Ì;mSπ∑(è¥áåc·Ωªÿ¢ˇ∏xıR1õΩCÛ∫ºÕ–¢G|⁄ÎÊ–«›z§˝¿™	∏46 Pm∂’ ¬€lOŒæœ«,◊d\∏≠ìê≈z/ñ.x@"”IA1H≠·ß¢5è*,ÏôåN•†VÈ∞N'V…
+C¿™∑ §∫h}ä<cËç./jjQ+¶Ô¡¸Ö$$√œ.Ω∂LvjåV6˙'¨∫¬ÑG‘ŸŸœFá≤ìw[vôÍ	mäàSﬁj˝}nøåﬁ±4‰√Åî∏“≥	%ˇ ˝;R÷¨]ƒ:":úüø÷ÌÀbÒú˘ÿVo·˛Ãœƒ◊çxç"∂6ÑY…Çé≠C¯Ø!µ„X–Ã_A◊∫˝Ü?wÒ
+PK    ™yD@9A`≥   *  #   xl/worksheets/_rels/sheet1.xml.relsçœÀ
+¬0–Ω_fo“∫ë¶›à–≠‘íÈõI|ÙÔÕFQp·rÊ2g∏UÛ03ªQàì≥J^ #´úûÏ ·‹◊;`1°’8;Kä–‘´ÍD3¶|«…Gñ%å)˘ΩQçd0rÁ…Ê§w¡` cÑGu¡Åƒ¶(∂"|Pô¨’B´K`›‚È€ı˝§Ë‡‘’êM?^ûãe√@IÁØ›;,yfA‘ï¯™X?PK    ™yD@€8µ=ª   *  #   xl/drawings/_rels/drawing1.xml.relsçœ1k1‡Ωø¬hèuó°îræ,!ê5§s1∂ŒÁˆ,[)ÕøØ«:tè˜=4æ”¶æ®∂òŸ¿®Pƒ.˚»¡¿€ı¥{’ƒ≤∑[f2pßá˘i∫–f•w⁄KS·f`)ØàÕ≠îl”π˜d…5YÈgX¨˚¥Åp?œX0?òÍÏ‘≥A]ÔÖ˛cÁeâééŸ›±¸1Å1ıÌ⁄Hhçâ|¥Xj˛ 'ÔRâF]8 Œ>º8ˇ PK    ™yD@î)$ó  >     xl/drawings/drawing1.xmlùRÀn1º˜+›mÇ∫IØÉ F⁄AkÌ(ZÆW®^ U{˝˜•¨]ƒi/EoCr4íZ›çﬁâ= ŸZyy—H¡ƒŒÜ]+||#e:ÌbÄVÅ‰›˙›jÏpy†
+~h…a+áú”R)2xM1A‡j—ÎÃ!ÓTá˙¿ ﬁ©´¶˘®(!ËéÄº©9ÈÈˇPÛ⁄π>9c´‡‹}0CƒöÍ1˙äLtÎf•f8Áæı˝Y∫Dß
+∆√ú.pŒù±ß®Øm`Ã¬å≠\‹^_]^/§0G^áõ≈m”HU9…ö
+¬~kÕv≤jæÓ∑(l«t)ÇˆºˆœP£éRt@Üó=Kr}™ã‹S4?IÑ¯0Ë∞É{J`r—QìøW∫˙´Ôã≥È—:W§
+ûnÒOóç}ol¢˘Â!‰zß3ˇ+l")x%˛x*¸“ùÈ%eÑlÜ{n¸Ãfã—≥Çzk¨DîÍ¥cè^`‰Òö™ñêÚ'à^¿mXMñºﬁ?—§;S&·*•ﬁú¬8Àlt÷ÛŒ˛¯Mj˛˚ÎﬂPK    ™yD@3Ø~ﬁã  µ	     xl/media/project_tree1.pngùñy4‘˝«Á©GÖÊÈπ≈∑lŸ´«R∂BòÏ3"ƒÿ“¬†,5∂π8¬M%4∂–ÑÎdôa,Mb»0(~∆2∂∆åôò¡ò˜ﬁsˇ∏˜‹Óˆœ˜|ŒÎº?Ôœ9üÛ˝æœ7’…¡,!+Å¿PK¥+|ß∆Ï€µs>G¥®Ç@‚±PÀ.˜0¨	Á;•ÜRbNπK≠ÅˆÓZº)[E›¯}?Õª†Àê'Häzª¶„è§¸⁄«•ãÅ⁄Km\Aî‹RÃ˚ìM∂4Ë8Ùü¡vsË^rªZõÅqe1óÍÃïª81ë‚^Ù»∏Ô·ë‚ú∞¿§¨¥$Ù*¥«¢=˚i>'Ó
+⁄çŒ&=<i∏ü4C“ûvÄ'HhÖ}î8úÎm©÷Èo„zcP(–ü‡úPÃÛπ—˚¢iÀË5◊bè‘µ…¯˛{K√TÍIßÑ¿<p 2∏ã›o·h˝j¿î"—¯¡W∫Qr!0â±+^FÅ£Úﬁ©7TÂﬂ;] ¯®s◊ã†oà2¶LtJìyê‡µ0uäÑû¶ ≤≤í¶/Xdô˝Ù+¥n◊y%äËëí∆ﬂ ≈À¿…‡ª=„òyöÏ¨†˘≠	iˇa√ø‹aôΩzkÂ>†ÜC◊—8Ì©ÓÒ≈ã„≥∂¿§Å´(ïØÔ¯ü-ˇkÍ çÏ(èÜÉcΩ’¬ñ6˚πÀﬂfC…• U∂Ü8ˆŒ»íBO>MRÏ/†x@«dt0ÔÔ˘·ÿ2U ÚLcî¸ˇvñ÷<ÀéΩ–ñò5ªé”obøàD{¯¥Cû˘πœ7ﬂè÷¯e≠ÖÆÙµÊ]!¿ï9˝òU-&òôE[Õ	ê>:◊≈Ÿ™åÅ˘ØmSG›˚p]Võ|®/Q‡Ï/+˛T~‡¿äh§RÏ$#ˇû[]!ö‘ví—<ÔàG¯^s÷xó˜¶*ÒjùHu,ÀqØ›ê5}„¿,ûÅÆfï1ø€èxñ≠?%s\ötõ˘,ùÃdi|ìÎ<¯≠±!?"NÙµwÄø®+…Ñ\˝jX.Ÿ>ﬁ∆[øı4:ñUq'âÚdMP∑{Uà”»Ì¶îØ"∏˜Ëë]#—r†Eò©V^ñ¿™{.ÊcL•ÁÿñfˇÃõ5óÊez·ÊK˘MÆæ0ãÉ	C«yE<1Ç¶óD’™9¸Tz–ÕÎt6`¥ŒNÖLíík]‡fºAXóÓCqDXsêHmù"‚Ö≠¶\úˇiw~“úKâ≥ˆ—∞`H|&Ãvv†3ø3Ì√Áõ∑8ÛŒ Àµäjs{‡»◊ÌIÀZl[D£ﬂæ6–rã˝µU¨[“õŒI	b$w˙o‹ºÇfnˇ´Dàπa»Ó±≤Pµbå‘˝È≥Õ»êmCE[qÅsm‘ëª–SYŒıËårBn&b>Îh–í◊º;ﬂ0r@ß–œK>Ãõ¡jºôÆ,Ù®¬
+ßÒgPsdL2‚-Gé≈~«ıTPﬂx < Èü&}vWïÁìy™ZóˇåπæÕlôVEÛP¢?ﬁ¶˛<Sq*Ld—ÿ†áã”Ù"n*ÜÍ¢˙‡ï⁄18ÂDÚ‚kº4ÅÑôTcWò–ﬂ∑Ér‚´ÕìÁ¶%ü>Q æ@‘˜˜ó- ’QQÛi&•h˙í€§çœ˜êÃÚ≈k∑∑∑:êπà◊œrƒë˛iØGï◊Có˝Çí°1≈∫B°#V≥·:Ÿ¯æ¬ËíÕ$8Ωq±, 	àÃUg©√”zUQ⁄ÌS≥s\ﬁÎÇ†$v'.-PCºJªV#ÙèYQ_ıÇø%¬1zMA,TNk—òŸ≤2LM|˚¥ÂNç"x‚_QQ‚˙0c>ˇ)nˇ%à·ü1ﬁ⁄Jöú—F æD÷`|ËRè Î¨Œ_MÙÑ
+>Ωäa1=V2!VΩ^—ı…“ë(pœóÚt‡ˇç®qÅÎ˝MD!g∞—é∏NêóEÿf<s0ük¨ÚÖK^4mJ…Ÿ‘:øÜDß_ÌªåÚôm≠¡ ˝]cÊØö∫î¸cJ±ÏècÖEaB™[éUü†Â„tt4#SfY˙¿çÿmô5ùk0¢]†êRíÏ†˘Ñ?ÉŒIG˚Ü/Á“√`óê%◊•jÜ<–“õµw¿“Á™úvﬂÂª◊eJƒôk€t qô
+JΩs6räh–B4Z}n\,?‰uÈ5‘hiZ—˝GIa€ËŸLÂËÁ
+ ÛıÿTgœ,o÷biú°∑øÎM_π‡»t€S“–x¨^¡s‘√ÛU¬Ø÷ôÓlÂ¢aäÇc°}°ág•Ò„˙—q¶%ºŸ¸\’ÇΩwå@Oa6]√w„Ê[¡-Ï)ãh:Aâ¶Ø/.R√(6ó„_~á®0YyÉõﬂÍ£ö;Ød}}ëru∆˚/Ë]≈/u€œå7ZËßÆôÉÉåÚ»ù/¡%DZ>D•ªHU`$Ä9gû…X“˙Ö}ÂÃua"Tr£ßªÄΩ÷jÂ'πéi_qp€ÒR£÷ê3jô*aî+Á\ª∆.Íü∂	am‘w û_ƒW6> ≠ysêÒ˜ZÆ~ıû.ÛÎ51s'ötàônö˘ò.70êxS…ÍZôûe=CæàtØ{…≈ÆüLªÑ]Âa£rGßÄ>)CF.#>•äm’‚?‰}6´°.˜òËa‚ W¨Â„ÈΩZv∂Z!F{?¯`C´}ñd	¶«ã∆ﬁ;ˆ∆πLz$Õù|b<1˙¨®cB≥ÌeØ§ö⁄]øí;èΩJ!#]Z8üM&Ï]ª,w∞–,∑±¶)„£BëŒ5}¡~π˚¬ßÛ?õ∆Ó:∏ˇ÷ñ#´S]ú¸Å}≈b{œÅÜöÏ≠ñòmΩ¬èØﬁñª)µiï+;(∏E$&B‘CKRÏµ§*ˆTﬁFYûñ€ˇﬂºëX_jÛæÁ}j	;ﬂ1Ù¢É%Œ‹'ÒwPK      ™yD@$˘Hp  ö                   [Content_Types].xmlPK      ™yD@∂78È   K               °  _rels/.relsPK      ™yD@Ñ$±VÈ   π               ≥  xl/_rels/workbook.xml.relsPK      ™yD@◊ÕÍÜ  ;               ‘  docProps/app.xmlPK      ™yD@Ü∑úˇq                 à  docProps/core.xmlPK      ™yD@≠≠·J                 (  xl/theme/theme1.xmlPK      ™yD@xË   ê                £  xl/sharedStrings.xmlPK      ™yD@Qπ9C˛  ß               T  xl/styles.xmlPK      ™yD@)• -ó  ¡               }  xl/workbook.xmlPK      ™yD@ãg4∑ó  ∑               A  xl/worksheets/sheet1.xmlPK      ™yD@9A`≥   *  #               xl/worksheets/_rels/sheet1.xml.relsPK      ™yD@€8µ=ª   *  #               xl/drawings/_rels/drawing1.xml.relsPK      ™yD@î)$ó  >               ˛  xl/drawings/drawing1.xmlPK      ™yD@3Ø~ﬁã  µ	               À  xl/media/project_tree1.pngPK      ∞  é     
